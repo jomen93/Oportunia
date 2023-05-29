@@ -15,7 +15,7 @@ Para configurar y ejecutar el proyecto, sigue los pasos detallados a continuaci�
 ### Ejecución
 
 1. Ejecuta el script `main.py` para generar las recomendaciones. Esto creará un archivo CSV en el directorio de datos con las recomendaciones para cada usuario.
-2. Inicia el servidor FastAPI con: `uvicorn main:app --reload`
+2. Inicia el servidor FastAPI con: `uvicorn deploy:app --reload`
    Esto iniciará el servidor en `http://127.0.0.1:8000`
 
 ## Uso de la API
